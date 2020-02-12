@@ -534,7 +534,7 @@
             </item>
             <item row="4" column="0">
              <widget class="QLabel" name="labelSubmittedDenomText">
-              <property name="text">
+              <property name="font">
                <string>Submitted Denom:</string>
               </property>
              </widget>
