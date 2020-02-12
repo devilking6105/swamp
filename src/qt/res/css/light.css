@@ -1029,7 +1029,9 @@ QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAmoun
 
 }
 
-QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenomText { /* PrivateSend Submitted Denom Label */
+
+QWidget .QFrame#frame .QLabel#labelSubmittedDenomText{
+/*QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenomText { */ /* PrivateSend Submitted Denom Label */
 font-size:14px;
 font-weight: bold;
 color:#006600;
