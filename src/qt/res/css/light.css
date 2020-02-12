@@ -957,6 +957,9 @@ QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget > .QLabel {
 min-width:175px;
 font-weight:normal;
 min-height:25px;
+font-size:14px;
+font-weight: bold;
+color:#006600;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelPrivateSendEnabledText { /* PrivateSend Enabled Status Label */
