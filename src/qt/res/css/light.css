@@ -1029,15 +1029,18 @@ QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAmoun
 
 }
 
-QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenomText { /* PrivateSend Submitted Denom Label */
+
+
+QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenomText {  /* PrivateSend Submitted Denom Label */
+font-size:14px !important;
+font-weight: bold !important;
+color:#006600 !important;
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#F8F6F6;
+/*background-color:#F8F6F6;*/
 margin-right:5px;
 padding-right:5px;
-font-size:14px;
-font-weight: bold;
-color:#006600;
+
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenom { /* PrivateSend Submitted Denom */
