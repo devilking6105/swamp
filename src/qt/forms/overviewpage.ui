@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>504</height>
+    <height>585</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -63,7 +63,7 @@
                </font>
               </property>
               <property name="text">
-               <string/>
+               <string></string>
               </property>
              </widget>
             </item>
@@ -466,14 +466,8 @@
             </property>
             <item row="0" column="0">
              <widget class="QLabel" name="labelPrivateSendEnabledText">
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
               <property name="text">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#006600;&quot;&gt;Status:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>Status:</string>
               </property>
              </widget>
             </item>
@@ -487,7 +481,7 @@
             <item row="1" column="0">
              <widget class="QLabel" name="labelCompletitionText">
               <property name="text">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#007800;&quot;&gt;Completion:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>Completion:</string>
               </property>
              </widget>
             </item>
@@ -507,7 +501,7 @@
             <item row="2" column="0">
              <widget class="QLabel" name="labelAnonymizedText">
               <property name="text">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#007800;&quot;&gt;PrivateSend Balance:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>PrivateSend Balance:</string>
               </property>
              </widget>
             </item>
@@ -527,7 +521,7 @@
             <item row="3" column="0">
              <widget class="QLabel" name="labelAmountAndRoundsText">
               <property name="text">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#007800;&quot;&gt;Amount and Rounds:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>Amount and Rounds:</string>
               </property>
              </widget>
             </item>
@@ -541,7 +535,7 @@
             <item row="4" column="0">
              <widget class="QLabel" name="labelSubmittedDenomText">
               <property name="text">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#007800;&quot;&gt;Submitted Denom:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>Submitted Denom:</string>
               </property>
              </widget>
             </item>
