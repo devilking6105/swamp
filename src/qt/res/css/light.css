@@ -104,12 +104,12 @@ background-color:#f2f2f2;
 
 QPushButton { /* Global Button Style */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #00cc00, stop: .1 #006600, stop: .95 #006600, stop: 1 #006600);
-border:0;
-border-radius:3px;
+/*border:0;
+border-radius:3px; */
 color:#ffffff;
 font-size:12px;
 font-weight:normal;
-height: 26px;
+min-height: 40px;
 padding-left:25px;
 padding-right:25px;
 padding-top:5px;
