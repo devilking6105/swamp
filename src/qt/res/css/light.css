@@ -49,9 +49,8 @@ margin:0;
 
 QToolBar > QToolButton {
 background-color:#e3eac5;
-min-height:40px;
-border-top-right-radius: 20px;
-border-top-left-radius: 20px;;
+border:0px solid #333;
+min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 font-weight:bold;
@@ -62,9 +61,6 @@ QToolBar > QToolButton:checked {
 background-color:#006600;
 color:#fff;
 font-weight:bold;
-min-height:40px;
-border-top-right-radius: 20px;
-border-top-left-radius: 20px;
 }
 
 QMessageBox {
@@ -969,6 +965,10 @@ min-width:160px;
 background-color:#F8F6F6;
 margin-right:5px;
 padding-right:5px;
+font-size:14px;
+font-weight: bold;
+color:#006600;
+
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelPrivateSendEnabled { /* PrivateSend Enabled Status */
@@ -981,7 +981,9 @@ min-width:160px;
 background-color:#F8F6F6;
 margin-right:5px;
 padding-right:5px;
-
+font-size:14px;
+font-weight: bold;
+color:#006600;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QProgressBar#privateSendProgress { /* PrivateSend Completion */
@@ -1003,6 +1005,9 @@ min-width:160px;
 background-color:#F8F6F6;
 margin-right:5px;
 padding-right:5px;
+font-size:14px;
+font-weight: bold;
+color:#006600;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAnonymized { /* PrivateSend Balance */
@@ -1015,6 +1020,9 @@ min-width:160px;
 background-color:#F8F6F6;
 margin-right:5px;
 padding-right:5px;
+font-size:14px;
+font-weight: bold;
+color:#006600;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAmountRounds { /* PrivateSend Amount and Rounds */
@@ -1027,6 +1035,9 @@ min-width:160px;
 background-color:#F8F6F6;
 margin-right:5px;
 padding-right:5px;
+font-size:14px;
+font-weight: bold;
+color:#006600;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenom { /* PrivateSend Submitted Denom */
