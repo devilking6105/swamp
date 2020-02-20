@@ -1228,6 +1228,7 @@ font-weight:normal;
 font-size:13px;
 max-width:369px;
 margin-top:12px;
+color: #fff;
 margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons */
 }
 
