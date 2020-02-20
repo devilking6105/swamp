@@ -224,7 +224,7 @@
     </qresource>
     <qresource prefix="/images/drkblue">
         <file alias="about">res/images/drkblue/about.png</file>
-        <file alias="hth_logo_horizontal">res/images/drkblue/hth_logo_horizontal.png</file>
+        <file alias="swamp_logo_horizontal">res/images/drkblue/swamp_logo_horizontal.png</file>
         <file alias="unchecked">res/images/drkblue/unchecked.png</file>
         <file alias="checked">res/images/drkblue/checked.png</file>
         <file alias="drkblue_downArrow">res/images/drkblue/drkblue_downArrow.png</file>
@@ -239,7 +239,7 @@
     </qresource>
     <qresource prefix="/images/crownium">
         <file alias="about">res/images/crownium/about.png</file>
-        <file alias="hth_logo_horizontal">res/images/crownium/hth_logo_horizontal.png</file>
+        <file alias="swamp_logo_horizontal">res/images/crownium/swamp_logo_horizontal.png</file>
         <file alias="unchecked">res/images/crownium/unchecked.png</file>
         <file alias="checked">res/images/crownium/checked.png</file>
         <file alias="drkblue_downArrow">res/images/crownium/drkblue_downArrow.png</file>
@@ -269,7 +269,7 @@
     </qresource>
     <qresource prefix="/images/trad">
         <file alias="about">res/images/trad/about.png</file>
-        <file alias="hth_logo_horizontal">res/images/trad/hth_logo_horizontal.png</file>
+        <file alias="swamp_logo_horizontal">res/images/trad/swamp_logo_horizontal.png</file>
         <file alias="drkblue_downArrow">res/images/trad/drkblue_downArrow.png</file>
         <file alias="drkblue_downArrow_small">res/images/trad/drkblue_downArrow_small.png</file>
         <file alias="drkblue_upArrow_small">res/images/trad/drkblue_upArrow_small.png</file>
