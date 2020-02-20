@@ -640,7 +640,7 @@ min-width:260px;
 
 /* Encrypt Wallet and Change Passphrase Dialog */
 QDialog#AskPassphraseDialog {
-background-color:#F8F6F6;
+background-color:#000000;
 }
 
 QDialog#AskPassphraseDialog QLabel#passLabel1, QDialog#AskPassphraseDialog QLabel#passLabel2, QDialog#AskPassphraseDialog QLabel#passLabel3 {
@@ -651,7 +651,7 @@ min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
 
 /* Options Dialog */
 QDialog#OptionsDialog {
-background-color:#F8F6F6;
+background-color:#000000;
 }
 
 QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
