@@ -656,6 +656,10 @@ background-color:#000000;
 color: #ffffff;
 }
 
+QDialog#OptionsDialog  QLabel{
+color: #000000;
+}
+
 QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
 margin-top:5px;
 margin-bottom:5px;
