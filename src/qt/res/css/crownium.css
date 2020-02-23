@@ -1300,12 +1300,12 @@ QWidget#bgWidget .QPushButton#closeButton {
 }
 
 /* Send Screen */
-QWidget .QFrame#frameFee .QLabel#labelFeeHeadline { /* Transaction Fee Label */
+QDialog#SendCoinsDialog .QFrame#frameFee .QLabel#labelFeeHeadline { /* Transaction Fee Label */
 color: ffffff;
 font-weight: bold;
 }
 
-QWidget .QFrame#frameFeeSelection .QLabel#labelSmartFee2 { /* Transaction Fee Label */
+QDialog#SendCoinsDialog .QFrame#frameFeeSelection .QLabel#labelSmartFee2 { /* Transaction Fee Label */
 color: ffffff;
 font-weight: bold;
 }
