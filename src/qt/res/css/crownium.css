@@ -1310,10 +1310,24 @@ font-weight:normal;
 color: #fff;
 }
 
-QDialog#SendCoinsDialog .QFrame#frameFee > .QLabel { /* Default Font Color and  Size */
+QDialog#SendCoinsDialog .QFrame#frameFee > .QLabel { /* Default Font Color and  Size for labels in frameFee */
 font-weight:normal;
 color: #fff;
 }
+QDialog#SendCoinsDialog .QFrame#frameFee > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFee */
+font-weight:normal;
+color: #fff;
+}
+QDialog#SendCoinsDialog .QFrame#frameFeeSelection > .QLabel { /* Default Font Color and  Size for labels in frameFeeSelection */
+font-weight:normal;
+color: #fff;
+}
+
+QDialog#SendCoinsDialog .QFrame#frameFeeSelection > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFeeSelection */
+font-weight:normal;
+color: #fff;
+}
+
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
 padding-left:10px;
