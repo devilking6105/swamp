@@ -20,8 +20,8 @@ background-color:#301300;
 }
 
 QMenuBar::item {
-background-color:#000000;
-color: #301300;
+background-color:#301300;
+color: #ff8000;
 }
 
 QMenuBar::item:selected {
@@ -33,30 +33,30 @@ background-color:#f8f6f6;
 }
 
 QMenu::item {
-color:#301300;
+color:#ff8000;
 }
 
 QMenu::item:selected {
-background-color:#301300;
-color:#000000;
-}
-
-QToolBar {
-background-color:#000000;
-border:0px solid #000;
-padding:0;
-margin:0;
+background-color:#ff8000;
 color:#301300;
 }
 
+QToolBar {
+background-color:#301300;
+border:0px solid #000;
+padding:0;
+margin:0;
+color:#ff8000;
+}
+
 QToolBar > QToolButton {
-background-color:#000000;
+background-color:#301300;
 border:0px solid #333;
 min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 font-weight:bold;
-color:#301300;
+color:#ff8000;
 }
 
 QToolBar > QToolButton:checked {
@@ -105,10 +105,10 @@ background-color:#f2f2f2;
 /*******************************************************/
 
 QPushButton { /* Global Button Style */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #00cc00, stop: .1 #301300, stop: .95 #301300, stop: 1 #301300);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ff9933, stop: .1 #ff8c1a, stop: .95 #ff8000 , stop: 1 #ff8000);
 /*border:0;
 border-radius:3px; */
-color:#ffffff;
+color:#301300;
 font-size:12px;
 font-weight:bold;
 min-height: 40px;
@@ -319,8 +319,8 @@ font-size:12px;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#f0f0f0;
-color:#333;
+background-color:#ff8000;
+color:#301300;
 }
 
 QScrollBar { /* Scroll Bar */
@@ -329,42 +329,42 @@ QScrollBar { /* Scroll Bar */
 
 QScrollBar:vertical { /* Vertical Scroll Bar Attributes */
 border:0;
-background:#ffffff;
+background:#301300;
 width:18px;
 margin: 18px 0px 18px 0px;
 }
 
 QScrollBar:horizontal { /* Horizontal Scroll Bar Attributes */
 border:0;
-background:#ffffff;
+background:#301300;
 height:18px;
 margin: 0px 18px 0px 18px;
 }
 
 
 QScrollBar::handle:vertical { /* Scroll Bar Slider - vertical */
-background:#e0e0e0;
+background:#301300;
 min-height:10px;
 }
 
 QScrollBar::handle:horizontal { /* Scroll Bar Slider - horizontal */
-background:#e0e0e0;
+background:#301300;
 min-width:10px;
 }
 
 QScrollBar::add-page, QScrollBar::sub-page { /* Scroll Bar Background */
-background:#F8F6F6;
+background:#301300;
 }
 
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { /* Define Arrow Button Dimensions */
-background-color:#F8F6F6;
+background-color:#301300;
 border: 1px solid #f2f0f0;
 width:16px;
 height:16px;
 }
 
 QScrollBar::add-line:vertical:pressed, QScrollBar::sub-line:vertical:pressed, QScrollBar::add-line:horizontal:pressed, QScrollBar::sub-line:horizontal:pressed {
-background-color:#e0e0e0;
+background-color:#301300;
 }
 
 QScrollBar::sub-line:vertical { /* Vertical - top button position */
@@ -825,7 +825,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#301300;
+background-color:#ff8000;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -841,7 +841,7 @@ min-height:40px;
 QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:16px;
-color:#301300;
+color:#ff8000;
 margin-left:0px;
 font-weight: bold;
 }
@@ -857,7 +857,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:14px;
 font-weight: bold;
-color:#301300;
+color:#ff8000;
 background-color:transparent;
 margin-right:5px;
 padding-right:5px;
@@ -881,7 +881,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:14px;
 font-weight: bold;
-color:#301300;
+color:#ff8000;
 background-color:transparent;
 margin-right:5px;
 padding-right:5px;
@@ -905,7 +905,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:14px;
 font-weight: bold;
-color:#301300;
+color:#ff8000;
 background-color:transparent;
 margin-right:5px;
 padding-right:5px;
@@ -942,7 +942,7 @@ QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendHeader { /* PrivateSend
 qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
-background-color:#301300;
+background-color:#ff8000;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -976,7 +976,7 @@ min-height:25px;
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelPrivateSendEnabledText { /* PrivateSend Enabled Status Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#F8F6F6;
+background-color:#ff8000;
 margin-right:5px;
 padding-right:5px;
 font-size:14px;
@@ -992,7 +992,7 @@ color: #fff;
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelCompletitionText { /* PrivateSend Completion Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#F8F6F6;
+background-color:#ff8000;
 margin-right:5px;
 padding-right:5px;
 font-size:14px;
@@ -1009,14 +1009,14 @@ color:#818181;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QProgressBar#privateSendProgress::chunk {
-background-color: #301300;
+background-color: #ff8000;
 width:1px;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAnonymizedText { /* PrivateSend Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#F8F6F6;
+background-color:#ff8000;
 margin-right:5px;
 padding-right:5px;
 font-size:14px;
@@ -1031,7 +1031,7 @@ color: #fff;
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAmountAndRoundsText { /* PrivateSend Amount and Rounds Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#F8F6F6;
+background-color:#ff8000;
 margin-right:5px;
 padding-right:5px;
 font-size:14px;
@@ -1111,11 +1111,11 @@ min-height:25px;
 font-size:11px;
 padding:0px;
 */
-background-color:rgba(0, 102, 0, 0.5);
+background-color:rgba(255, 128, 0, 0.5);
 min-height: 40px;
 font-size:13px;
 font-weight:normal;
-color:#ffffff;
+color:#301300;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -1143,11 +1143,11 @@ min-height:25px;
 font-size:11px;
 padding:0px;
 */
-background-color:rgba(0, 102, 0, 0.5);
+background-color:rgba(255 128, 0, 0.5);
 min-height: 40px;
 font-size:13px;
 font-weight:normal;
-color:#ffffff;
+color:#301300;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -1178,11 +1178,11 @@ border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 border-top-left-radius: 20px;*/
-background-color:rgba(0, 102, 0, 0.5);
+background-color:rgba(255, 128, 0, 0.5);
 min-height: 40px;
 font-size:13px;
 font-weight:normal;
-color:#ffffff;
+color:#301300;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -1215,7 +1215,7 @@ background-repeat:none;
 
 QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
 min-width:180px;
-color:#301300;
+color:#ff8000;
 margin-left:67px;
 margin-top:83px;
 margin-right:5px;
