@@ -818,7 +818,8 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#001f4d;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #0066ff, stop: .1 #001f4d, stop: .95 #001f4d, stop: 1 #001f4d);
+/* background-color:#001f4d; */
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -932,7 +933,8 @@ QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendHeader { /* PrivateSend
 qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
-background-color:#001f4d;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #0066ff, stop: .1 #001f4d, stop: .95 #001f4d, stop: 1 #001f4d);
+/* background-color:#001f4d; */
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -1333,7 +1335,7 @@ font-weight:normal;
 color: #fff;
 }
 
-QDialog#SendCoinsDialog > .QCheckBox { /* Default Font Color and  Size for Labels on bottom os screen  */
+QDialog#SendCoinsDialog > .QLabel { /* Default Font Color and  Size for Labels on bottom os screen  */
 font-weight:normal;
 color: #fff;
 }
