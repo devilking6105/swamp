@@ -962,6 +962,7 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #ff8000;
+font-weight:bold;
 }
 
 QWidget .QFrame#framePrivateSend .QLabel#labelCompletitionText { /* Completion percentage label */
@@ -969,12 +970,14 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #ff8000;
+font-weight:bold;
 }
 QWidget .QFrame#framePrivateSend .QLabel#labelAnonymizedText { /* Private Send Balance label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #ff8000;
+font-weight:bold;
 }
 
 QWidget .QFrame#framePrivateSend .QLabel#labelAmountAndRoundsText { /* Amount and Rounds label */
@@ -982,6 +985,7 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #ff8000;
+font-weight:bold;
 }
 
 QWidget .QFrame#framePrivateSend .QLabel#labelSubmittedDenomText { /* Denom label */
@@ -989,6 +993,7 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #ff8000;
+font-weight:bold;
 }
 /******************************************************************/
 QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendSyncStatus { /* PrivateSend Sync Status */
@@ -1310,6 +1315,10 @@ QWidget#bgWidget .QPushButton#closeButton {
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
+}
+
+QDialog#SendCoinsDialog .QFrame#framefee .QRadioButton{ /* radio button when unhiding fees */
+color:#ff8000;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
