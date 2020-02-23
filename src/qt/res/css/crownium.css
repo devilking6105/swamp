@@ -1300,27 +1300,19 @@ QWidget#bgWidget .QPushButton#closeButton {
 }
 
 /* Send Screen */
-QDialog#SendCoinsDialog .QFrame#frameFee .QLabel#labelFeeHeadline { /* Transaction Fee Label */
-color: ffffff;
-font-weight: bold;
-}
-
-QDialog#SendCoinsDialog .QFrame#frameFeeSelection .QLabel#labelSmartFee2 { /* Transaction Fee Label */
-color: ffffff;
-font-weight: bold;
-}
-
 /* SEND DIALOG */
-
-
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
 }
-
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
 font-weight:normal;
-color: #999;
+color: #fff;
+}
+
+QDialog#SendCoinsDialog .QFrame#frameFee > .QLabel { /* Default Font Color and  Size */
+font-weight:normal;
+color: #fff;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
