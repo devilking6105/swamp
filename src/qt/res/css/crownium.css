@@ -7,7 +7,7 @@ padding-bottom: 20px;
 }
 
 QStatusBar {
-background-color:#514938;
+background-color:transparent;
 }
 
 .QFrame {
@@ -1155,8 +1155,8 @@ padding-bottom:3px;
 }
 
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendAuto:hover {
-background-color:#7c4003;
-color:#fff;
+background-color:#0052cc;
+color:#000000;
 }
 
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendAuto:pressed {
@@ -1187,8 +1187,8 @@ padding-bottom:3px;
 }
 
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendReset:hover {
-background-color:#7c4003;
-color:#fff;
+background-color:#0052cc;
+color:#000000;
 }
 
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendReset:pressed {
@@ -1222,8 +1222,8 @@ padding-bottom:3px;
 }
 
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendInfo:hover {
-background-color:#7c4003;
-color:#fff;
+background-color:#0052cc;
+color:#000000;
 }
 
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendInfo:pressed {
