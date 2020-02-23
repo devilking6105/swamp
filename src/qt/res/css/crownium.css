@@ -331,26 +331,26 @@ QScrollBar { /* Scroll Bar */
 
 QScrollBar:vertical { /* Vertical Scroll Bar Attributes */
 border:0;
-background:#001f4d;
+background:#fcfcfc;
 width:18px;
 margin: 18px 0px 18px 0px;
 }
 
 QScrollBar:horizontal { /* Horizontal Scroll Bar Attributes */
 border:0;
-background:#001f4d;
+background:#fcfcfc;
 height:18px;
 margin: 0px 18px 0px 18px;
 }
 
 
 QScrollBar::handle:vertical { /* Scroll Bar Slider - vertical */
-background:#001f4d;
+background:#fcfcfc;
 min-height:10px;
 }
 
 QScrollBar::handle:horizontal { /* Scroll Bar Slider - horizontal */
-background:#001f4d;
+background:#fcfcfc;
 min-width:10px;
 }
 
@@ -359,7 +359,7 @@ background:#fcfcfc;
 }
 
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { /* Define Arrow Button Dimensions */
-background-color:#001f4d;
+background-color:#fcfcfc;
 border: 1px solid #f2f0f0;
 width:16px;
 height:16px;
