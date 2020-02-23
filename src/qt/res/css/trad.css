@@ -50,7 +50,7 @@ color:#ff8000;
 }
 
 QToolBar > QToolButton {
-background-color:#301300;
+background-color:#331A00;
 border:0px solid #333;
 min-height:2.5em;
 min-width: 8em;
@@ -60,8 +60,8 @@ color:#ff8000;
 }
 
 QToolBar > QToolButton:checked {
-background-color:#ff8000;
-color:#01300;
+background-color:#331A00;
+color:#fff;
 font-weight:bold;
 }
 
@@ -947,13 +947,48 @@ border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 border-top-left-radius: 20px;
-color:#ff8000;
+color:#301300;
 margin-right: 5px;
 padding-right: 5px;
 font-weight:bold;
 font-size:14px;
 min-height:40px;
 max-height:40px;
+}
+
+
+QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendEnabledText { /* Status EnableDisable label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #ff8000;
+}
+
+QWidget .QFrame#framePrivateSend .QLabel#labelCompletitionText { /* Completion percentage label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #ff8000;
+}
+QWidget .QFrame#framePrivateSend .QLabel#labelAnonymizedText { /* Private Send Balance label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #ff8000;
+}
+
+QWidget .QFrame#framePrivateSend .QLabel#labelAmountAndRoundsText { /* Amount and Rounds label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #ff8000;
+}
+
+QWidget .QFrame#framePrivateSend .QLabel#labelSubmittedDenomText { /* Denom label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #ff8000;
 }
 /******************************************************************/
 QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendSyncStatus { /* PrivateSend Sync Status */

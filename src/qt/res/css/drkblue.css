@@ -955,6 +955,40 @@ font-size:14px;
 min-height:40px;
 max-height:40px;
 }
+
+QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendEnabledText { /* Status EnableDisable label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #006600;
+}
+
+QWidget .QFrame#framePrivateSend .QLabel#labelCompletitionText { /* Completion percentage label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #006600;
+}
+QWidget .QFrame#framePrivateSend .QLabel#labelAnonymizedText { /* Private Send Balance label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #006600;
+}
+
+QWidget .QFrame#framePrivateSend .QLabel#labelAmountAndRoundsText { /* Amount and Rounds label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #006600;
+}
+
+QWidget .QFrame#framePrivateSend .QLabel#labelSubmittedDenomText { /* Denom label */
+qproperty-alignment: 'AlignVCenter | AlignLeft';
+font-size:12px;
+margin-left:0px;
+color: #006600;
+}
 /******************************************************************/
 QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendSyncStatus { /* PrivateSend Sync Status */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
