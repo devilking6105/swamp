@@ -99,7 +99,10 @@ font-size:12px;
 .QValidatedLineEdit:disabled, .QLineEdit:disabled {
 background-color:#f2f2f2;
 }
-
+QRadioButton {
+font-size:12px;
+color:#000000;	
+}
 /*******************************************************/
 
 QPushButton { /* Global Button Style */
