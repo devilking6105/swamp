@@ -1317,13 +1317,18 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
 }
 
-QDialog#SendCoinsDialog .QFrame#framefee .QRadioButton{ /* radio button when unhiding fees */
-color:#ff8000;
-}
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
 font-weight:normal;
 color: #999;
+}
+
+QDialog#SendCoinsDialog .QFrame#framefeeSelection .QRadioButton#radioSmartFee{ /* Recommended radio button when unhiding fees */
+color:#ff8000;
+}
+
+QDialog#SendCoinsDialog .QFrame#framefeeSelection .QRadioButton#{ /* radio button when unhiding fees */
+color:#ff8000;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
