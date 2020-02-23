@@ -306,7 +306,7 @@ border-right: 0px solid #d7d7d7;
 }
 
 .QScrollArea {
-background:transparent;
+background:#001f4d;
 border:0px;
 }
 
@@ -321,7 +321,7 @@ font-size:12px;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#f0f0f0;
+background-color:#0066ff;
 color:#333;
 }
 
@@ -331,42 +331,42 @@ QScrollBar { /* Scroll Bar */
 
 QScrollBar:vertical { /* Vertical Scroll Bar Attributes */
 border:0;
-background:#ffffff;
+background:#001f4d;
 width:18px;
 margin: 18px 0px 18px 0px;
 }
 
 QScrollBar:horizontal { /* Horizontal Scroll Bar Attributes */
 border:0;
-background:#ffffff;
+background:#001f4d;
 height:18px;
 margin: 0px 18px 0px 18px;
 }
 
 
 QScrollBar::handle:vertical { /* Scroll Bar Slider - vertical */
-background:#e0e0e0;
+background:#001f4d;
 min-height:10px;
 }
 
 QScrollBar::handle:horizontal { /* Scroll Bar Slider - horizontal */
-background:#e0e0e0;
+background:#001f4d;
 min-width:10px;
 }
 
 QScrollBar::add-page, QScrollBar::sub-page { /* Scroll Bar Background */
-background:#F8F6F6;
+background:#001f4d;
 }
 
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { /* Define Arrow Button Dimensions */
-background-color:#F8F6F6;
+background-color:#001f4d;
 border: 1px solid #f2f0f0;
 width:16px;
 height:16px;
 }
 
 QScrollBar::add-line:vertical:pressed, QScrollBar::sub-line:vertical:pressed, QScrollBar::add-line:horizontal:pressed, QScrollBar::sub-line:horizontal:pressed {
-background-color:#e0e0e0;
+background-color:#0066ff;
 }
 
 QScrollBar::sub-line:vertical { /* Vertical - top button position */
@@ -1506,7 +1506,8 @@ padding-right:5px;
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
 color: #fff;
-background-color:#001f4d;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #0066ff, stop: .1 #001f4d, stop: .95 #001f4d, stop: 1 #001f4d);
+/* background-color:#001f4d; */
 min-height:40px;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -1698,7 +1699,8 @@ padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-background-color:#001f4d;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #0066ff, stop: .1 #001f4d, stop: .95 #001f4d, stop: 1 #001f4d);
+/* background-color:#001f4d; */
 min-width:102px;
 color:#ffffff;
 min-height:40px;
