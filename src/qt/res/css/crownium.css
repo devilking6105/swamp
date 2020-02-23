@@ -7,7 +7,7 @@ padding-bottom: 20px;
 }
 
 QStatusBar {
-background-color:transparent;
+background-color:#514938;
 }
 
 .QFrame {
@@ -125,7 +125,8 @@ border-top-left-radius: 20px;
 }
  
 QPushButton:hover {
-background-color: #4d2802;
+background-color:#0052cc;
+color:#000000;
 }
 
 QPushButton:focus {
@@ -1298,7 +1299,20 @@ QWidget#bgWidget .QPushButton#closeButton {
 
 }
 
+/* Send Screen */
+QWidget .QFrame#frameFee .QLabel#labelFeeHeadline { /* Transaction Fee Label */
+color: ffffff;
+font-weight: bold;
+}
+
+QWidget .QFrame#frameFeeSelection .QLabel#labelSmartFee2 { /* Transaction Fee Label */
+color: ffffff;
+font-weight: bold;
+}
+
 /* SEND DIALOG */
+
+
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
