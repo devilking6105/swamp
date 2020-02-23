@@ -305,7 +305,7 @@ QHeaderView::section:last {
 border-right: 0px solid #d7d7d7;
 }
 
-.QScrollArea {
+.QScrollArea { /* this is an area now part of the scroll bars, shoudl be left as transpparent */
 background:transparent;
 border:0px;
 }
@@ -1438,7 +1438,7 @@ border:1px solid #9e9e9e;
 }
 
 QDialog#SendCoinsDialog .QCheckBox#checkUsePrivateSend { /* PrivateSend Checkbox */
-color:#616161;
+color:#ffffff;
 font-weight:bold;
 background: qradialgradient(cx:0.5, cy:0.5, radius: 0.5, fx:0.5, fy:0.5, stop:0 rgba(248, 246, 246, 128), stop: 1 rgba(0, 0, 0, 0));
 border-radius:5px;
@@ -1447,7 +1447,7 @@ padding-bottom:18px;
 }
 
 QDialog#SendCoinsDialog .QCheckBox#checkUseInstantSend { /* InstantSend Checkbox */
-color:#616161;
+color:#ffffff;
 font-weight:bold;
 background: qradialgradient(cx:0.5, cy:0.5, radius: 0.5, fx:0.5, fy:0.5, stop:0 rgba(248, 246, 246, 128), stop: 1 rgba(0, 0, 0, 0));
 border-radius:5px;
@@ -1473,14 +1473,14 @@ padding-bottom:20px;*/
 min-height:27px;
 }
 
-QDialog#SendCoinsDialog QLabel#labelBalance {
+QDialog#SendCoinsDialog QLabel#labelBalance { /* balance on bottom right of send screen */
 margin-left:0px;
 padding-left:0px;
-color:#333333;
-/* font-weight:bold;
+color:#ffffff;
+ font-weight:bold;
 border-radius:5px;
 padding-top:20px;
-padding-bottom:20px; */
+padding-bottom:20px; 
 min-height:27px;
 }
 
