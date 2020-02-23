@@ -1328,6 +1328,15 @@ font-weight:normal;
 color: #fff;
 }
 
+QDialog#SendCoinsDialog > .QCheckBox { /* Default Font Color and  Size for Checkboses on bottom os screen  */
+font-weight:normal;
+color: #fff;
+}
+
+QDialog#SendCoinsDialog > .QCheckBox { /* Default Font Color and  Size for Labels on bottom os screen  */
+font-weight:normal;
+color: #fff;
+}
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
 padding-left:10px;
