@@ -270,6 +270,8 @@
     <qresource prefix="/images/trad">
         <file alias="about">res/images/trad/about.png</file>
         <file alias="swamp_logo_horizontal">res/images/trad/swamp_logo_horizontal.png</file>
+        <file alias="unchecked">res/images/light/unchecked.png</file>
+        <file alias="checked">res/images/light/checked.png</file>
         <file alias="drkblue_downArrow">res/images/trad/drkblue_downArrow.png</file>
         <file alias="drkblue_downArrow_small">res/images/trad/drkblue_downArrow_small.png</file>
         <file alias="drkblue_upArrow_small">res/images/trad/drkblue_upArrow_small.png</file>
