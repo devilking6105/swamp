@@ -285,8 +285,8 @@ background-color:transparent;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #00cc00, stop: 1 #301300);
-color:#fff;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 4d1f00, stop: 1 #301300);
+color:#ff8000;
 min-height:25px;
 font-weight:bold;
 font-size:11px;
@@ -830,7 +830,7 @@ border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 border-top-left-radius: 20px;
-color:#ffffff;
+color:#301300;
 margin-right:5px;
 padding-right:5px;
 font-size:14px;
@@ -1447,8 +1447,8 @@ padding-right:5px;
 }
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
-color: #fff;
-background-color:#301300;
+color: #301300;
+background-color:#ff8000;
 min-height:40px;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -1640,9 +1640,9 @@ padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-background-color:#301300;
+background-color:#ff8000;
 min-width:102px;
-color:#ffffff;
+color:#301300;
 min-height:40px;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
