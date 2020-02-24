@@ -101,12 +101,10 @@ font-size:12px;
 .QValidatedLineEdit:disabled, .QLineEdit:disabled {
 background-color:#f2f2f2;
 }
-
 QRadioButton {
 font-size:12px;
 color:#ff8000;	
 }
-	
 /*******************************************************/
 
 QPushButton { /* Global Button Style */
@@ -290,7 +288,7 @@ background-color:transparent;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 331400, stop: 1 #301300);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #331400, stop: 1 #301300);
 color:#ff8000;
 min-height:25px;
 font-weight:bold;
