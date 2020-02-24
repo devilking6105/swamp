@@ -1013,7 +1013,7 @@ color:#0066ff;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelPrivateSendEnabled { /* PrivateSend Enabled Status */
-
+color: #fff;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelCompletitionText { /* PrivateSend Completion Label */
@@ -1052,7 +1052,7 @@ color:#0066ff;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAnonymized { /* PrivateSend Balance */
-
+color: #fff;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAmountAndRoundsText { /* PrivateSend Amount and Rounds Label */
@@ -1248,6 +1248,7 @@ font-weight:normal;
 font-size:13px;
 max-width:369px;
 margin-top:12px;
+color: #fff;
 margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons */
 }
 
@@ -1283,7 +1284,6 @@ QWidget#bgWidget .QPushButton#closeButton {
 
 
 QDialog#SendCoinsDialog .QFrame#frameFee > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFee */
-
 font-weight:normal;
 color: #999;
 }
@@ -1454,7 +1454,8 @@ padding-right:5px;
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
 color: #fff;
-background-color:#0066ff;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
+/* background-color:#ff8000; */
 min-height:40px;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -1646,7 +1647,8 @@ padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-background-color:#0066ff;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 ##ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
+/* background-color:#ff8000; */
 min-width:102px;
 color:#ffffff;
 min-height:40px;
