@@ -304,7 +304,7 @@ QHeaderView::section:last {
 border-right: 0px solid #d7d7d7;
 }
 
-.QScrollArea {
+.QScrollArea { /* this is an area now part of the scroll bars, shoudl be left as transpparent */
 background:transparent;
 border:0px;
 }
@@ -944,13 +944,12 @@ font-size:14px;
 min-height:40px;
 max-height:40px;
 }
-
 QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendEnabledText { /* Status EnableDisable label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #0066ff;
-font-weight:bold;			 
+font-weight:bold;
 }
 
 QWidget .QFrame#framePrivateSend .QLabel#labelCompletitionText { /* Completion percentage label */
@@ -958,14 +957,14 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #0066ff;
-font-weight:bold;				 
+font-weight:bold;
 }
 QWidget .QFrame#framePrivateSend .QLabel#labelAnonymizedText { /* Private Send Balance label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #0066ff;
-font-weight:bold;				 
+font-weight:bold;
 }
 
 QWidget .QFrame#framePrivateSend .QLabel#labelAmountAndRoundsText { /* Amount and Rounds label */
@@ -973,7 +972,7 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #0066ff;
-font-weight:bold;				 
+font-weight:bold;
 }
 
 QWidget .QFrame#framePrivateSend .QLabel#labelSubmittedDenomText { /* Denom label */
@@ -981,7 +980,7 @@ qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color: #0066ff;
-font-weight:bold;				 
+font-weight:bold;
 }
 /******************************************************************/
 QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendSyncStatus { /* PrivateSend Sync Status */
@@ -1076,7 +1075,7 @@ QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelAmoun
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QLabel#labelSubmittedDenomText {  /* PrivateSend Submitted Denom Label */
 font-size:14px !important;
 font-weight: bold !important;
-color:#0066ff !important;
+color: #0066ff !important;
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 /*background-color:#F8F6F6;*/
@@ -1283,8 +1282,8 @@ QWidget#bgWidget .QPushButton#closeButton {
 /* SEND DIALOG */
 
 
+QDialog#SendCoinsDialog .QFrame#frameFee > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFee */
 
-QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
 font-weight:normal;
 color: #999;
 }
