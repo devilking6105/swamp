@@ -947,8 +947,7 @@ QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendHeader { /* PrivateSend
 qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 ##ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
-/* background-color:#ff8000; */							   
+background-color:#ff8000;						   
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
