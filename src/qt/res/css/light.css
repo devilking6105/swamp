@@ -21,6 +21,7 @@ background-color:#e3eac5;
 
 QMenuBar::item {
 background-color:#e3eac5;
+color: #ff8000;
 }
 
 QMenuBar::item:selected {
@@ -45,6 +46,7 @@ background-color:#e3eac5;
 border:0px solid #000;
 padding:0;
 margin:0;
+color:#ff8000;
 }
 
 QToolBar > QToolButton {
@@ -653,6 +655,15 @@ min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
 /* Options Dialog */
 QDialog#OptionsDialog {
 background-color:#F8F6F6;
+color: #ffffff;
+}
+
+QDialog#OptionsDialog QLabel{
+color: #000000;
+}
+
+QDialog#OptionsDialog QCheckBox{
+color: #000000;
 }
 
 QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
@@ -859,6 +870,7 @@ QWidget .QFrame#frame .QLabel#labelUnconfirmed { /* Pending Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
+color: #fff;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchPending { /* Watch-only Pending Balance */
@@ -882,6 +894,7 @@ QWidget .QFrame#frame .QLabel#labelImmature { /* Immature Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
+color: #fff;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchImmature { /* Watch-only Immature Balance */
@@ -905,6 +918,7 @@ QWidget .QFrame#frame .QLabel#labelTotal { /* Total Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 margin-left:0px;
+color: #fff;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchTotal { /* Watch-only Total Balance */
@@ -1285,7 +1299,7 @@ QWidget#bgWidget .QPushButton#closeButton {
 
 QDialog#SendCoinsDialog .QFrame#frameFee > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFee */
 font-weight:normal;
-color: #999;
+color: #fff;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
