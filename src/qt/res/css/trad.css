@@ -947,7 +947,7 @@ QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendHeader { /* PrivateSend
 qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
-background-color:#ff8000;						   
+background-color:#ff8000;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -960,8 +960,6 @@ font-size:14px;
 min-height:40px;
 max-height:40px;
 }
-
-
 QWidget .QFrame#framePrivateSend .QLabel#labelPrivateSendEnabledText { /* Status EnableDisable label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
@@ -1306,7 +1304,6 @@ font-weight:normal;
 color: #fff;
 }
 
-
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
 padding-left:10px;
 padding-right:10px;
@@ -1473,7 +1470,7 @@ padding-right:5px;
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
 color: #301300;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 ##ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
 /* background-color:#ff8000; */
 min-height:40px;
 border-top-right-radius: 20px;
@@ -1667,7 +1664,7 @@ padding-right:5px;
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 ##ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
-/* background-color:#ff8000; */		   
+/* background-color:#ff8000; */
 min-width:102px;
 color:#301300;
 min-height:40px;
