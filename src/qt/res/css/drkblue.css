@@ -306,7 +306,7 @@ QHeaderView::section:last {
 border-right: 0px solid #d7d7d7;
 }
 
-.QScrollArea {
+.QScrollArea { /* this is an area now part of the scroll bars, shoudl be left as transpparent */
 background:transparent;
 border:0px;
 }
@@ -1485,7 +1485,7 @@ padding-bottom:20px;*/
 min-height:27px;
 }
 
-QDialog#SendCoinsDialog QLabel#labelBalance {
+QDialog#SendCoinsDialog QLabel#labelBalance {  /* balance on bottom right of send screen */
 margin-left:0px;
 padding-left:0px;
 color:#ffffff;

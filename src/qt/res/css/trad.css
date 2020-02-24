@@ -7,7 +7,7 @@ padding-bottom: 20px;
 }
 
 QStatusBar {
-background-color:#331A00;
+background-color:#573106;
 }
 
 .QFrame {
@@ -830,8 +830,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 ##ffbf80, stop: .1 #ff8000, stop: .95 #ff8000, stop: 1 #ff8000);
-/* background-color:#ff8000; */
+background-color:#ff8000; 
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -1302,37 +1301,13 @@ QWidget#bgWidget .QPushButton#closeButton {
 
 /* SEND DIALOG */
 
-QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
-}
-
-QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
-
-}
-
-QDialog#SendCoinsDialog .QFrame#frameFee > .QLabel { /* Default Font Color and  Size for labels in frameFee */
-
-}
 QDialog#SendCoinsDialog .QFrame#frameFee > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFee */
 font-weight:normal;
 color: #fff;
 }
 
-QDialog#SendCoinsDialog .QFrame#frameFeeSelection > .QLabel { /* Default Font Color and  Size for labels in frameFeeSelection */
 
-}
-
-QDialog#SendCoinsDialog .QFrame#frameFeeSelection > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFeeSelection */
-
-}
-
-QDialog#SendCoinsDialog > .QCheckBox { /* Default Font Color and  Size for Checkboses on bottom os screen  */
-
-}
-
-QDialog#SendCoinsDialog > .QLabel { /* Default Font Color and  Size for Labels on bottom os screen  */
-
-}
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
 padding-left:10px;
 padding-right:10px;
