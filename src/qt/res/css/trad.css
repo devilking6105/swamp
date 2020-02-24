@@ -308,7 +308,7 @@ QHeaderView::section:last {
 border-right: 0px solid #d7d7d7;
 }
 
-.QScrollArea {
+.QScrollArea { /* this is an area now part of the scroll bars, shoudl be left as transpparent */
 background:transparent;
 border:0px;
 }
@@ -1305,37 +1305,33 @@ QWidget#bgWidget .QPushButton#closeButton {
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
 }
+
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
-font-weight:normal;
-color: #fff;
+
 }
 
 QDialog#SendCoinsDialog .QFrame#frameFee > .QLabel { /* Default Font Color and  Size for labels in frameFee */
-font-weight:normal;
-color: #fff;
+
 }
 QDialog#SendCoinsDialog .QFrame#frameFee > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFee */
 font-weight:normal;
 color: #fff;
 }
+
 QDialog#SendCoinsDialog .QFrame#frameFeeSelection > .QLabel { /* Default Font Color and  Size for labels in frameFeeSelection */
-font-weight:normal;
-color: #fff;
+
 }
 
 QDialog#SendCoinsDialog .QFrame#frameFeeSelection > .QCheckBox { /* Default Font Color and  Size for Checkboses in frameFeeSelection */
-font-weight:normal;
-color: #fff;
+
 }
 
 QDialog#SendCoinsDialog > .QCheckBox { /* Default Font Color and  Size for Checkboses on bottom os screen  */
-font-weight:normal;
-color: #fff;
+
 }
 
 QDialog#SendCoinsDialog > .QLabel { /* Default Font Color and  Size for Labels on bottom os screen  */
-font-weight:normal;
-color: #fff;
+
 }
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
 padding-left:10px;
