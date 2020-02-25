@@ -92,8 +92,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("SWAMP-light"), QVariant("light"));
-        
+    ui->theme->addItem(QString("SWAMP-Tan"), QVariant("light"));
+    ui->theme->addItem(QString("SWAMP-Black"), QVariant("drkblue"));
+    ui->theme->addItem(QString("SWAMP-Blue"), QVariant("crownium"));
+    ui->theme->addItem(QString("SWAMP-Chocolate"), QVariant("trad"));
     /* Language selector */
     QDir translations(":translations");
     ui->lang->addItem(QString("(") + tr("default") + QString(")"), QVariant(""));
