@@ -68,6 +68,7 @@ make -C depends HOST=x86_64-apple-darwin11
 
 ./configure --prefix=`pwd`/depends/x86_64-apple-darwin11
 
+
 make
 
 ~/swamp/src now contains the compiled Swamp binaries, and ~/swamp/src/qt contains the Swamp GUI wallet.
