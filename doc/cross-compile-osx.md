@@ -48,7 +48,10 @@ Right click on the network request at the bottom of the list labeled Xcode_7.3.1
 Paste this long string of text into your Linux terminal, append -o Xcode_7.3.1.dmg at the end and then press enter to begin the download. Once it is complete, extract the required files from the disc image as follows:
 
 
+chmod 777 contrib/macdeploy/extract-osx-sdk.sh
+
 contrib/macdeploy/extract-osx-sdk.sh
+
 rm -rf 5.hfs MacOSX10.11.sdk
 
 mkdir depends/SDKs
