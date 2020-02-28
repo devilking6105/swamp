@@ -57,7 +57,6 @@ The Swamp Core repo's [root README](/README.md) contains relevant information on
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcointalkTalk](https://bitcointalk.org/index.php?topic=3146751) forums.
 * Discuss on [SWAMP Discord channel](https://discord.gg/6vGNAh5).
 
 ### Miscellaneous
