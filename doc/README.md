@@ -27,7 +27,7 @@ Drag Swamp-Qt to your applications folder, and then run Swamp-Qt.
 * See the [Swamp documentation](https://github.com/swampdev-the-man/swamp/tree/master/doc)
 for help and more information.
 * Ask for help on [SWAMP Discord channel](https://discord.gg/6vGNAh5).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=3146751) forums.
+
 
 Building
 ---------------------
