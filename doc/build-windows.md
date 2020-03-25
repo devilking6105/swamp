@@ -18,7 +18,7 @@ installing the toolchain will be different.
 
 First install the toolchains:
 
-    sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev make make-guile
+    sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev
 
 To build executables for Windows 32-bit:
 
