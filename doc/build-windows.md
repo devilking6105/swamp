@@ -22,7 +22,8 @@ First install the toolchains:
     
 Ubuntu Bionic 18.04 <sup>[1](#footnote1)</sup>:
 
-    sudo update-alternatives --config x86_64-w64-mingw32-g++ # Set the default mingw32 g++ compiler option to posix.
+    sudo update-alternatives --config x86_64-w64-mingw32-g++ # 64 Bit Windows - Set the default to posix.
+    sudo update-alternatives --config i686-w64-mingw32-g++ # 32 Bit Windows - Set the default to posix.
 
 Once the toolchain is installed the build steps are common:
 
@@ -30,7 +31,7 @@ Note that for WSL the Swamp Core source path MUST be somewhere in the default mo
 example /usr/src/swmp, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
 This means you cannot use a directory that is located directly on the host Windows file system to perform the build.
 
-Build using:
+Build 64 bit windows binaries using:
 
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
@@ -39,7 +40,17 @@ Build using:
     ./autogen.sh # not required when building from tarball
     CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
     make
+    
+Build 32 bit windows binaries using:
 
+    PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
+    cd depends
+    make HOST=i686-w64-mingw32 # 32 bit windows
+    cd ..
+    ./autogen.sh # not required when building from tarball
+    CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
+    make
+    
 Installation
 -------------
 
