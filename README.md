@@ -1,6 +1,9 @@
  
- Swamp Coin (SWAMP) Currency
+ Swamp Coin (SWAMP) Currency and Charity
 =====================================
+Swamp Coin was created to help restore the balance to ecosystems around the world that reptiles and amphibians call home.  As a future 501c3 non-profit charitable organization, Swamp Coin leverages the power of blockchain, cryptocurrency and masternodes to help generate the funding these habitats desperately need.
+
+Swamp Coin will be accepted by animal rescues to fund the medical care and adoption fees required to give our swamp based friends new homes and a chance!  We are are a small team taking a steady pace to build the right network and partners to slowly but surely chip away of the overwhelming cost and effort associated with ecosystem homeostasis.
 
 SWAMP is a egalitarian Proof-of-Work (PoW) cryptocurrency building up a global community to be united against the inflationary nature of all world Fiat currency. As governments print an infinite amount of dollars, euros etc., SWAMP remains finite and predicable.  SWAMP is superior to fiat and traditional banks by:
 - Masternodes to support consensus by the people (1000 SWAMP)
@@ -10,7 +13,7 @@ SWAMP is a egalitarian Proof-of-Work (PoW) cryptocurrency building up a global c
 - Permissionless access to YOUR money... unlike banks
 - Optional private sent features 
 
-If you like the idea of owning and controlling your own money, feel free to contact us and work with us. For Discussions we use Discord: [Click here to follow invite Link](https://discord.gg/R4FAu6b).  Seek out the Swampcoin channel
+If you like the idea of owning and controlling your own money as well as funding the improvementof mother earthj, feel free to contact us and work with us. For Discussions we use Discord: [Click here to follow invite Link](https://discord.gg/R4FAu6b).  Seek out the Swampcoin channel
 
 ### Coin Specs
 
