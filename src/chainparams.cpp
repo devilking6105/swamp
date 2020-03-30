@@ -109,7 +109,7 @@ public:
         pchMessageStart[1] = 0x77; //w
         pchMessageStart[2] = 0x61; //a
         pchMessageStart[3] = 0x6d; //m
-	pchMessageStart[4] = 0x70; //p    
+	    pchMessageStart[4] = 0x70; //p    
         vAlertPubKey = ParseHex("047738e763b45593b3bc080cfd2ec07ce725d2c39b18e4bccced4ed75856afa15e88399cc894bbe9f10d98dd715081a27d3c45e5e7382f07c4c6bd32a9acda5c7d");
         nDefaultPort = 33333;
         
@@ -155,11 +155,12 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021")),
-                1539043200, // * UNIX timestamp of last checkpoint block
-                0,      // * total number of transactions between genesis and last checkpoint
+            (     0, uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021"))
+			(100000, uint256S("0x0000038508708ac5387431ad5b53e439fb8b3e9ab2e6aae28e9573e5a19f4df8")),
+                1583122698, // * UNIX timestamp of last checkpoint block
+                100000,      // * total number of transactions between genesis and last checkpoint
                             //   (the tx=... number in the SetBestChain debug.log lines)
-                0         // * estimated number of transactions per day after checkpoint
+                708         // * estimated number of transactions per day after checkpoint
         };
     }
 };
