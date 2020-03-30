@@ -6,13 +6,13 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/veco
-src/vecod
-src/veco-cli
-src/veco-tx
-src/test/test_veco
-src/qt/test/test_veco-qt
-src/bench/bench_veco
+src/swamp
+src/swampd
+src/swamp-cli
+src/swamp-tx
+src/test/test_swamp
+src/qt/test/test_swamp-qt
+src/bench/bench_swamp
 
 # autoreconf
 Makefile.in
@@ -35,8 +35,8 @@ config.log
 config.status
 configure
 libtool
-src/config/veco-config.h
-src/config/veco-config.h.in
+src/config/swamp-config.h
+src/config/swamp-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -81,12 +81,12 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-veco-qt
-Veco-Qt.app
+swamp-qt
+swamp-Qt.app
 
 # Unit-tests
 Makefile.test
-veco-qt_test
+swamp-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -100,7 +100,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_veco.coverage/
+test_swamp.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -124,11 +124,11 @@ share/BitcoindComparisonTool.jar
 /doc/doxygen/
 
 libvecoconsensus.pc
-src/qt/veco-qt.bash
+src/qt/swamp-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-veco-cli
-vecod
-veco-qt
+swamp-cli
+swampd
+swamp-qt
 make
