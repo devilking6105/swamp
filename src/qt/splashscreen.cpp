@@ -55,7 +55,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
         splashScreenPath = ":/images/" + GUIUtil::getThemeName() + "/splash_testnet";
     if(GetBoolArg("-testnet", false))
         splashScreenPath = ":/images/" + GUIUtil::getThemeName() + "/splash_testnet";
-	setStyleSheet(QString("QLabel { color : gold }").arg(platformStyle->SingleColor().name()));
+	setStyleSheet(QString("QLabel { color : white }").arg(PlatformRole->SingleColor().name()));
 
     QString font = QApplication::font().toString();
 
