@@ -730,21 +730,21 @@
             </property>
            </widget>
           </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
          </layout>
         </widget>
-       </item>
-       <item>
-        <spacer name="verticalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -757,20 +757,7 @@
          <item>
           <widget class="QPushButton" name="pushButton_3">
            <property name="toolTip">
-            <string>&lt;html&gt;&lt;body&gt;
-&lt;br&gt;
-&lt;b&gt;Swampthing&lt;/b&gt; - https://pool.swampthing.net
-&lt;br&gt;
-&lt;b&gt;GPUHot&lt;/b&gt; - https://pool.gpuhot.com/
-&lt;br&gt;
-&lt;b&gt;Hashplex&lt;/b&gt; - http://www.hashpex.com/
-&lt;br&gt;
-&lt;b&gt;RPlant&lt;/b&gt; - https://pool.rplant.xyz/
-&lt;br&gt;
-&lt;b&gt;Miner World&lt;/b&gt; - https://miner-world.com
-&lt;br&gt;
-&lt;b&gt;Block Miner&lt;/b&gt; - http://blockminer.me
-&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;img src=&quot;:/icons/trad/tx_mined&quot; width=&quot;48&quot; height=&quot;48&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Swampthing: &lt;/span&gt;&lt;a href=&quot;https://pool.swampthing.net &quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://pool.swampthing.net &lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;GPUHot:&lt;/span&gt; https://pool.gpuhot.com/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hashplex:&lt;/span&gt; http://www.hashpex.com/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RPlant:&lt;/span&gt; https://pool.rplant.xyz/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Miner World:&lt;/span&gt; https://miner-world.com &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Miner:&lt;/span&gt; http://blockminer.me &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="text">
             <string>Pools</string>
@@ -780,14 +767,7 @@
          <item>
           <widget class="QPushButton" name="pushButton_2">
            <property name="toolTip">
-            <string>&lt;html&gt;&lt;body&gt;
-&lt;br&gt;
-&lt;b&gt;Altmarkets&lt;/b&gt; - https://altmarkets.io
-&lt;br&gt;
-&lt;b&gt;Ex4ange&lt;/b&gt; - https://ex4ange.org
-&lt;br&gt;
-&lt;b&gt;Zeon Exchange&lt;/b&gt; - https://exchange.zeonhexalgo.fun
-&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/tx_output&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Altmarkets:&lt;/span&gt; https://altmarkets.io &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ex4ange:&lt;/span&gt; https://ex4ange.org &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Zeon Exchange:&lt;/span&gt; https://exchange.zeonhexalgo.fun &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="text">
             <string>Exchanges</string>
@@ -797,43 +777,10 @@
          <item>
           <widget class="QPushButton" name="pushButton">
            <property name="toolTip">
-            <string>&lt;html&gt;&lt;body&gt;
-&lt;h1 style=&quot;text-align: center;&quot;&gt;Solo Swamp Coin Minging Guide&lt;/h1&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;Mining any crypto currency is the fuel that makes the network run, create new coins and provide a decentralized security model.&amp;nbsp; Mining can be done either on a pool or solo.&amp;nbsp; Pool mining combines your hashing power with others to&amp;nbsp; win blocks at a faster rate than you would normally by yourself.&amp;nbsp; Solo mining simply relies on the hardware and hashing capabilities on your own.&amp;nbsp; This guide will focus on solo mining.&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;&lt;strong&gt;Solo Mining Options&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;There are 2 ways to solo mine Swamp Coin.&amp;nbsp; Both are effective but option #2 will provide slightly faster hash rates.&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 60px;&quot;&gt;1.&amp;nbsp; In wallet Mining - generally considered the easiest and only requires the wallet software&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 60px;&quot;&gt;2.&amp;nbsp; Miner software -&amp;nbsp; requires the use of a 3rd part miner program&lt;/p&gt;
-&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;&lt;strong&gt;Instructions - In Wallet Mining&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;Before you can begin using this method you must download the Swamp Coin wallet from Github.&amp;nbsp; Download the version appropriate for your operating system &lt;a title=&quot;Wallet Downloads&quot; href=&quot;https://github.com/swampcoin/swamp/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HERE&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Install the wallet and allow it to fully synchronize with the network&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Open the debug console by clicking &lt;strong&gt;Tools&lt;/strong&gt; &amp;gt; &lt;strong&gt;Debug Console&lt;/strong&gt; from the menu&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-In the bottom of the Debug Console type the command &lt;strong&gt;setgenerate true -1&lt;/strong&gt; and press enter&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Close the debug console&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;As you succesfully find and solve blocks your mined coins will appear in the wallet&lt;/p&gt;
-&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;text-align: left; padding-left: 30px;&quot;&gt;&lt;strong&gt;Instructions - Miner Software&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;Before you can begine using this method you must download the Swamp Coin wallet from Github.&amp;nbsp; Download the version appropriate for your operating system &lt;a title=&quot;Wallet Downloads&quot; href=&quot;https://github.com/swampcoin/swamp/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HERE&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Install the wallet and allow it to fully synchronize with the network&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Generate an address from the &lt;strong&gt;Receive&lt;/strong&gt; screen and copy it somewhere&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Download any CPU miner software that supports the YesPower algo.&amp;nbsp; JayDDee's cpuminer is recommended but not required if you have another favorite brand.&amp;nbsp; The latest release can be found &lt;a title=&quot;cpuminer download&quot; href=&quot;https://github.com/JayDDee/cpuminer-opt/releases&quot;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Extract all files to a folder&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Create a file in the same folder and name it &lt;strong&gt;mine_swamp.bat&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;-Edit mine_swamp.bat and enter&amp;nbsp;&lt;strong&gt;-a yespower -o http://127.0.0.1:rpcport -u rpcuser -p rpcpassword --coinbase-add=&lt;span style=&quot;color: #3366ff;&quot;&gt;wallet&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3366ff;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;-Replace&lt;/span&gt; &lt;strong&gt;wallet &lt;/strong&gt;&lt;span style=&quot;color: #000000;&quot;&gt;with the address you generated from the Receive screen&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3366ff;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;-Save the mine_swamp.bat file&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3366ff;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;-Double click mine_swamp.bat&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;span style=&quot;color: #3366ff;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;As you succesfully find and solve block your mined coins will appear in the wallet.&amp;nbsp; There are several configations you can change with the software so take a moment to read the information about it on the Github site &lt;a title=&quot;cpuminer readme&quot; href=&quot;https://github.com/JayDDee/cpuminer-opt/blob/master/README.md&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HERE&lt;/a&gt;.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/about&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Type:&lt;/span&gt; POW/Masternodes &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Algo:&lt;/span&gt; YesPower &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Time:&lt;/span&gt; 110 Seconds &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Size:&lt;/span&gt; 1mb &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Max Supply:&lt;/span&gt; 40 mil &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Maturity:&lt;/span&gt; 6 Confirmation &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Mined Block Maturity:&lt;/span&gt; 101 confirmations &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Masternode Collateral:&lt;/span&gt; 1000 SWAMP &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="text">
-            <string>Solo Mine Guide</string>
+            <string>Chain Info</string>
            </property>
           </widget>
          </item>
@@ -845,6 +792,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../swamp.qrc"/>
+ </resources>
  <connections/>
 </ui>
