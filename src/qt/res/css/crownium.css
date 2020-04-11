@@ -1857,4 +1857,19 @@ QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #d7d7d7;
 }
 
-
+QWidget .QLabel#chainLabel { /* Chain lable mouse Oover tool tip  */
+qproperty-alignment: 'AlignVCenter | AlignCenter';
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #0066ff, stop: .1 #001f4d, stop: .95 #001f4d, stop: 1 #001f4d);
+/* background-color:#001f4d; */
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+color:#fff;
+margin-right: 5px;
+padding-right: 5px;
+font-weight:bold;
+font-size:14px;
+min-height:40px;
+max-height:40px;
+}

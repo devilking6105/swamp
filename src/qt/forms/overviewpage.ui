@@ -40,7 +40,7 @@
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,0">
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
@@ -754,37 +754,76 @@
          <property name="bottomMargin">
           <number>5</number>
          </property>
-         <item>
-          <widget class="QPushButton" name="pushButton_3">
-           <property name="toolTip">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;img src=&quot;:/icons/trad/tx_mined&quot; width=&quot;48&quot; height=&quot;48&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Swampthing: &lt;/span&gt;&lt;a href=&quot;https://pool.swampthing.net &quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://pool.swampthing.net &lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;GPUHot:&lt;/span&gt; https://pool.gpuhot.com/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hashplex:&lt;/span&gt; http://www.hashpex.com/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RPlant:&lt;/span&gt; https://pool.rplant.xyz/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Miner World:&lt;/span&gt; https://miner-world.com &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Miner:&lt;/span&gt; http://blockminer.me &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-           </property>
-           <property name="text">
-            <string>Pools</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_2">
-           <property name="toolTip">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/tx_output&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Altmarkets:&lt;/span&gt; https://altmarkets.io &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ex4ange:&lt;/span&gt; https://ex4ange.org &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Zeon Exchange:&lt;/span&gt; https://exchange.zeonhexalgo.fun &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-           </property>
-           <property name="text">
-            <string>Exchanges</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton">
-           <property name="toolTip">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/about&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Type:&lt;/span&gt; POW/Masternodes &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Algo:&lt;/span&gt; YesPower &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Time:&lt;/span&gt; 110 Seconds &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Size:&lt;/span&gt; 1mb &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Max Supply:&lt;/span&gt; 40 mil &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Maturity:&lt;/span&gt; 6 Confirmation &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Mined Block Maturity:&lt;/span&gt; 101 confirmations &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Masternode Collateral:&lt;/span&gt; 1000 SWAMP &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-           </property>
-           <property name="text">
-            <string>Chain Info</string>
-           </property>
-          </widget>
-         </item>
         </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="leftMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>2</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;img src=&quot;:/icons/trad/tx_mined&quot; width=&quot;48&quot; height=&quot;48&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Swampthing: &lt;/span&gt;&lt;a href=&quot;https://pool.swampthing.net &quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://pool.swampthing.net &lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;GPUHot:&lt;/span&gt; https://pool.gpuhot.com/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hashplex:&lt;/span&gt; http://www.hashpex.com/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RPlant:&lt;/span&gt; https://pool.rplant.xyz/ &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Miner World:&lt;/span&gt; https://miner-world.com &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Miner:&lt;/span&gt; http://blockminer.me &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Pools</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/tx_output&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Altmarkets:&lt;/span&gt; https://altmarkets.io &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ex4ange:&lt;/span&gt; https://ex4ange.org &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Zeon Exchange:&lt;/span&gt; https://exchange.zeonhexalgo.fun &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Exchanges</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/about&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Type:&lt;/span&gt; POW/Masternodes &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Algo:&lt;/span&gt; YesPower &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Time:&lt;/span&gt; 110 Seconds &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Size:&lt;/span&gt; 1mb &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Max Supply:&lt;/span&gt; 40 mil &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Maturity:&lt;/span&gt; 6 Confirmation &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Mined Block Maturity:&lt;/span&gt; 101 confirmations &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Masternode Collateral:&lt;/span&gt; 1000 SWAMP &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Chain Info</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="chainLabel">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/drkblue/about&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Type:&lt;/span&gt; POW/Masternodes &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Algo:&lt;/span&gt; YesPower &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Time:&lt;/span&gt; 110 Seconds &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Block Size:&lt;/span&gt; 1mb &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Max Supply:&lt;/span&gt; 40 mil &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Maturity:&lt;/span&gt; 6 Confirmation &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Mined Block Maturity:&lt;/span&gt; 101 confirmations &lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Masternode Collateral:&lt;/span&gt; 1000 SWAMP &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string>Chain</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </item>
