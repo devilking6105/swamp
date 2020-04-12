@@ -276,7 +276,7 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
 #ifndef QT_NO_TOOLTIP
     webs->setToolTip(QApplication::translate("OverviewPage", "Explore the Swamp Coin Blockchain.", nullptr));
 #endif // QT_NO_TOOLTIP
-    webs->setText(QApplication::translate("OverviewPage", "<a href=\"http://swampexplorer.swampthing.net\"><img src=\":/icons/webs\" width=\"21\" height=\"21\"></a>", nullptr));
+    webs->setText(QApplication::translate("OverviewPage", "<a href=\"http://explorer.swampcoin.tech\"><img src=\":/icons/webs\" width=\"21\" height=\"21\"></a>", nullptr));
      
     frameSocialLayout->addWidget(webs);        
     frameSocialLayout->addWidget(www);        
