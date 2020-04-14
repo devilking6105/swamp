@@ -30,6 +30,7 @@ class UnitDisplayStatusBarControl;
 class WalletFrame;
 class WalletModel;
 class HelpMessageDialog;
+class HelpMessageDialog2;
 class ModalOverlay;
 class MasternodeList;
 
