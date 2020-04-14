@@ -202,7 +202,7 @@ void HelpMessageDialog2::on_okButton_accepted()
 
 
 /** "Shutdown" window */
-ShutdownWindow::ShutdownWindow(QWidget *parent, Qt::WindowFlags f):
+ShutdownWindow2::ShutdownWindow2(QWidget *parent, Qt::WindowFlags f):
     QWidget(parent, f)
 {
     QVBoxLayout *layout = new QVBoxLayout();
@@ -212,23 +212,23 @@ ShutdownWindow::ShutdownWindow(QWidget *parent, Qt::WindowFlags f):
     setLayout(layout);
 }
 
-QWidget *ShutdownWindow::showShutdownWindow(BitcoinGUI *window)
+QWidget *ShutdownWindow2::showShutdownWindow2(BitcoinGUI *window)
 {
     if (!window)
         return nullptr;
 
     // Show a simple window indicating shutdown status
-    QWidget *shutdownWindow = new ShutdownWindow();
-    shutdownWindow->setWindowTitle(window->windowTitle());
+    QWidget *shutdownWindow2 = new ShutdownWindow2();
+    shutdownWindow2->setWindowTitle(window->windowTitle());
 
     // Center shutdown window at where main window was
     const QPoint global = window->mapToGlobal(window->rect().center());
-    shutdownWindow->move(global.x() - shutdownWindow->width() / 2, global.y() - shutdownWindow->height() / 2);
-    shutdownWindow->show();
-    return shutdownWindow;
+    shutdownWindow2->move(global.x() - shutdownWindow2->width() / 2, global.y() - shutdownWindow2->height() / 2);
+    shutdownWindow2->show();
+    return shutdownWindow2;
 }
 
-void ShutdownWindow::closeEvent(QCloseEvent *event)
+void ShutdownWindow2::closeEvent(QCloseEvent *event)
 {
     event->ignore();
 }
