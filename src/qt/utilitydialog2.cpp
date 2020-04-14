@@ -8,7 +8,7 @@
 #include "utilitydialog2.h"
 
 
-#include "ui_HelpMessageDialog2.h"
+#include "ui_helpmessagedialog2.h"
 
 
 #include "bitcoingui.h"
