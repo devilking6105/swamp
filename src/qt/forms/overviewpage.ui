@@ -784,6 +784,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="privateSendInfo2">
+		<property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/crownium/tx_inout&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Swamp Coin was created to help restore the balance to&lt;br/&gt;ecosystems around the world that reptiles and amphibians&lt;br/&gt;call home. As a future 501c3 non-profit charitable&lt;br/&gt;organization, Swamp Coin leverages the power of&lt;br/&gt;blockchain, cryptocurrency and masternodes to help&lt;br/&gt;generate the funding these habitats desperately need. &lt;br/&gt;&lt;br/&gt;Swamp Coin will be accepted by animal rescues to fund the&lt;br/&gt;medical care and adoption fees required to give our swamp&lt;br/&gt;based friends new homes and a chance! We are are a&lt;br/&gt;small team taking a steady pace to build the right network&lt;br/&gt;and partners to slowly but surely chip away of the&lt;br/&gt;overwhelming cost and effort associated with ecosystem&lt;br/&gt;homeostasis.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
          <property name="text">
           <string>PushButton</string>
          </property>
