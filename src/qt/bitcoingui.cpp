@@ -119,7 +119,7 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     notificator(0),
     rpcConsole(0),
     helpMessageDialog(0),
-    helpMessageDialog2(0),
+    /* helpMessageDialog2(0), */ // delete if not needed
     modalOverlay(0),
     prevBlocks(0),
     spinnerFrame(0),
