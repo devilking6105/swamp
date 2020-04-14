@@ -589,7 +589,7 @@ void OverviewPage::privateSendReset(){
 }
 // new info button
 void OverviewPage::privateSendInfo2(){
-    HelpMessageDialog dlg(this, HelpMessageDialog::pshelp);
+    HelpMessageDialog dlg(this, HelpMessageDialog2::pshelp);
     dlg.exec();
 }
 void OverviewPage::privateSendInfo(){
