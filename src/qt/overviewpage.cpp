@@ -590,7 +590,11 @@ void OverviewPage::privateSendInfo(){
     HelpMessageDialog dlg(this, HelpMessageDialog::pshelp);
     dlg.exec();
 }
-
+// new info button
+void OverviewPage::privateSendInfo2(){
+    HelpMessageDialog2 dlg(this, HelpMessageDialog2::pshelp);
+    dlg.exec();
+}
 void OverviewPage::togglePrivateSend(){
     QSettings settings;
     // Popup some information on first mixing
