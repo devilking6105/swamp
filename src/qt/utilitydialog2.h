@@ -43,13 +43,13 @@ private Q_SLOTS:
 
 
 /** "Shutdown" window */
-class ShutdownWindow : public QWidget
+class ShutdownWindow2 : public QWidget
 {
     Q_OBJECT
 
 public:
-    ShutdownWindow(QWidget *parent=0, Qt::WindowFlags f=0);
-    static QWidget *showShutdownWindow(BitcoinGUI *window);
+    ShutdownWindow2(QWidget *parent=0, Qt::WindowFlags f=0);
+    static QWidget *showShutdownWindow2(BitcoinGUI *window);
 
 protected:
     void closeEvent(QCloseEvent *event);
