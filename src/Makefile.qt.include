@@ -253,7 +253,7 @@ BITCOIN_QT_CPP = \
   qt/splashscreen.cpp \
   qt/trafficgraphdata.cpp \
   qt/trafficgraphwidget.cpp \
-  qt/utilitydialog.cpp
+  qt/utilitydialog.cpp \
   qt/utilitydialog2.cpp
 
 if TARGET_WINDOWS
