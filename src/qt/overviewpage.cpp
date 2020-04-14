@@ -19,6 +19,7 @@
 #include "transactionfilterproxy.h"
 #include "transactiontablemodel.h"
 #include "utilitydialog.h"
+#include "utilitydialog2.h"
 #include "walletmodel.h"
 
 #include "instantx.h"
