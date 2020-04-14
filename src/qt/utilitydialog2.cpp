@@ -32,7 +32,7 @@
 #include <QVBoxLayout>
 
 /** "Help message" or "About" dialog box */
-HelpMessageDialog2::HelpMessageDialog2(QWidget *parent, HelpMode helpMode) :
+HelpMessageDialog2::HelpMessageDialog2(QWidget *parent, HelpMode2 helpMode2) :
     QDialog(parent),
     ui(new Ui::HelpMessageDialog2)
 {
@@ -48,7 +48,7 @@ HelpMessageDialog2::HelpMessageDialog2(QWidget *parent, HelpMode helpMode) :
     version += " " + tr("(%1-bit)").arg(32);
 #endif
 
-    if (helpMode == about)
+    if (helpMode2 == about)
     {
         setWindowTitle(tr("About Swamp Core"));
 
@@ -69,7 +69,7 @@ HelpMessageDialog2::HelpMessageDialog2(QWidget *parent, HelpMode helpMode) :
         ui->aboutMessage->setText(version + "<br><br>" + licenseInfoHTML);
         ui->aboutMessage->setWordWrap(true);
         ui->helpMessage->setVisible(false);
-    } else if (helpMode == cmdline) {
+    } else if (helpMode2 == cmdline) {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
             "  swamp-qt [" + tr("command-line options") + "]                     " + "\n";
@@ -131,7 +131,7 @@ HelpMessageDialog2::HelpMessageDialog2(QWidget *parent, HelpMode helpMode) :
         ui->helpMessage->moveCursor(QTextCursor::Start);
         ui->scrollArea->setVisible(false);
         ui->aboutLogo->setVisible(false);
-    } else if (helpMode == pshelp) {
+    } else if (helpMode2 == pshelp) {
         setWindowTitle(tr("PrivateSend information"));
 
         ui->aboutMessage->setTextFormat(Qt::RichText);
