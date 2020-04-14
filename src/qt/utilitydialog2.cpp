@@ -5,10 +5,10 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 
-#include "utilitydialog.h"
+#include "utilitydialog2.h"
 
 
-#include "ui_helpmessagedialog.h"
+#include "ui_HelpMessageDialog2.h"
 
 
 #include "bitcoingui.h"
@@ -32,9 +32,9 @@
 #include <QVBoxLayout>
 
 /** "Help message" or "About" dialog box */
-HelpMessageDialog::HelpMessageDialog(QWidget *parent, HelpMode helpMode) :
+HelpMessageDialog2::HelpMessageDialog2(QWidget *parent, HelpMode helpMode) :
     QDialog(parent),
-    ui(new Ui::HelpMessageDialog)
+    ui(new Ui::HelpMessageDialog2)
 {
     ui->setupUi(this);
 
@@ -137,7 +137,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, HelpMode helpMode) :
         ui->aboutMessage->setTextFormat(Qt::RichText);
         ui->scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
         ui->aboutMessage->setText(tr("\
-<h3>PrivateSend Basics </h3> \
+<h3>PrivateSend Basics 2</h3> \
 PrivateSend gives you true financial privacy by obscuring the origins of your funds. \
 All the Swamp in your wallet is comprised of different \"inputs\" which you can think of as separate, discrete coins.<br> \
 PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. \
@@ -173,18 +173,18 @@ For more info see <a href=\"https://dashpay.atlassian.net/wiki/display/DOC/Priva
     ui->aboutLogo->setPixmap(pixmap);
 }
 
-HelpMessageDialog::~HelpMessageDialog()
+HelpMessageDialog2::~HelpMessageDialog2()
 {
     delete ui;
 }
 
-void HelpMessageDialog::printToConsole()
+void HelpMessageDialog2::printToConsole()
 {
     // On other operating systems, the expected action is to print the message to the console.
     fprintf(stdout, "%s\n", qPrintable(text));
 }
 
-void HelpMessageDialog::showOrPrint()
+void HelpMessageDialog2::showOrPrint()
 {
 #if defined(WIN32)
     // On Windows, show a message box, as there is no stderr/stdout in windowed applications
@@ -195,7 +195,7 @@ void HelpMessageDialog::showOrPrint()
 #endif
 }
 
-void HelpMessageDialog::on_okButton_accepted()
+void HelpMessageDialog2::on_okButton_accepted()
 {
     close();
 }
