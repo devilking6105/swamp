@@ -297,7 +297,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
         connect(ui->privateSendAuto, SIGNAL(clicked()), this, SLOT(privateSendAuto()));
         connect(ui->privateSendReset, SIGNAL(clicked()), this, SLOT(privateSendReset()));
         connect(ui->privateSendInfo, SIGNAL(clicked()), this, SLOT(privateSendInfo()));
-        connect(ui->privateSendInfo2, SIGNAL(clicked()), this, SLOT(privateSendInfo2()));
+        connect(ui->privateSendInfo2, SIGNAL(clicked()), this, SLOT(showInfo()));
         connect(ui->togglePrivateSend, SIGNAL(clicked()), this, SLOT(togglePrivateSend()));
         updateWatchOnlyLabels(model->haveWatchOnly());
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
@@ -455,6 +455,7 @@ void OverviewPage::updateAdvancedPSUI(bool fShowAdvancedPSUI) {
     ui->privateSendAuto->setVisible(fShowAdvancedPSUI);
     ui->privateSendReset->setVisible(fShowAdvancedPSUI);
     ui->privateSendInfo->setVisible(true);
+    ui->privateSendInfo2->setVisible(true);
     ui->labelPrivateSendLastMessage->setVisible(fShowAdvancedPSUI);
 }
 
