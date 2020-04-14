@@ -54,5 +54,28 @@ public:
 protected:
     void closeEvent(QCloseEvent *event);
 };
+class HelpMessageDialog2 : public QDialog
+{
+    Q_OBJECT
 
+public:
+    enum HelpMode {
+        about,
+        cmdline,
+        pshelp
+    };
+
+    explicit HelpMessageDialog2(QWidget *parent, HelpMode helpMode);
+    ~HelpMessageDialog2();
+
+    void printToConsole();
+    void showOrPrint();
+
+private:
+    Ui::HelpMessageDialog2 *ui;
+    QString text;
+
+private Q_SLOTS:
+    void on_okButton_accepted();
+};
 #endif // BITCOIN_QT_UTILITYDIALOG_H

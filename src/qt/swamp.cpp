@@ -21,7 +21,6 @@
 #include "platformstyle.h"
 #include "splashscreen.h"
 #include "utilitydialog.h"
-#include "utilitydialog2.h"
 #include "winshutdownmonitor.h"
 
 #ifdef ENABLE_WALLET
