@@ -116,6 +116,7 @@ private:
     QAction *lockWalletAction;
     QAction *aboutQtAction;
     QAction *openInfoAction;
+    QAction *openInfoAction2;
     QAction *openRPCConsoleAction;
     QAction *openGraphAction;
     QAction *openPeersAction;
